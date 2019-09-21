@@ -1,0 +1,370 @@
+body {
+  background: white;
+  align-content: center;
+}
+
+.navbox
+{
+background-color: #2554C7;
+height:auto;
+}
+
+
+input{
+  width: 250px;
+}
+.main-nav{
+  
+  width:1200px;
+  height: 100px;
+  /*text-align: center;*/
+  justify-content: space-between;
+}
+*
+{
+  margin: 0 auto 0 auto;}
+
+html, body {
+text-align: center;
+}
+
+
+* {box-sizing:border-box
+
+}
+
+
+#page
+{
+  display: block; 
+  min-height: 100%;
+  position: relative; 
+  overflow: hidden; 
+  
+}
+
+
+#logo {
+  height: 50px;
+  vertical-align: middle;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+ul {
+  width: 1200px;
+  display: inline;
+  list-style: none;
+  font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+li {
+  color: white;
+  display: inline;
+  cursor: pointer;
+  padding: 15px;
+  /*margin-left: 5px;*/
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+
+li:hover {
+  color: black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #2554C7;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px #2554C7;
+  z-index: 1;
+  font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #2554C7;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  width: 150px;
+  position: relative;
+  align-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #2554C7;}
+
+
+.contentBox
+{
+width:1200px;
+height:auto;
+background-color:#FFFFFF;
+margin-top:10px;
+}
+
+.contentBox .innerBox
+{
+position:relative;
+width:1200px;
+height:auto;
+top:10px;
+}
+
+.contentTitle
+{
+font-size:22px;
+margin-bottom:0px;
+padding-top:18px;
+margin-top:15px;
+text-align: left;
+}
+
+.slideshow-container img{
+  margin-right: 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: auto;
+  align-content: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev{
+  left: 0;
+  background-color: #2554C7;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  /*border-radius: 3px 0 0 3px;*/
+  background-color: #2554C7;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #5b6fc8;
+}
+
+
+#grid { 
+  width: 500px;
+  height: auto;
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1vw;
+  }
+
+#grid > div {
+  width: 250px;
+  height: 200px;
+  font-size: 15px;
+  background: white;
+  align-content: center;
+}
+
+
+.item {
+  background-color: white;
+  border: 1px solid #2554C7;
+  font-size: 12px;
+  text-align: left;
+  padding: 5px;
+}
+
+.item5 {
+  background-color: white;
+  height: auto;
+  border: 1px solid #2554C7;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.item5 a{
+  color: black;
+  margin: 10px;
+}
+
+#gridTitle
+{
+position:relative;
+/*bottom:5px;*/
+font-size:18px;
+background-color:#2554C7;
+color: white;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+
+#timelinetitle
+{
+position:relative;
+top:2px;
+bottom:10px;
+font-size:18px;
+background-color:#2554C7;
+color: white;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+margin-left: 5px;
+}
+
+.column p{
+  text-align: left;
+  justify-content: space-around;
+}
+
+.row{
+  width: 1200px;
+  min-height: 100%;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.row .column
+{
+position:relative;
+}
+
+.row .column2
+{
+position:relative;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#footer {
+
+width: 1200px;
+height:100px;
+text-align:center;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+color:#386172;
+padding-top:5px;
+}
+
+#footer p {
+text-decoration:none;
+font-size:12px;
+color:black;
+text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-right: 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-right: 10px;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #fe4164;
+  color: white;
+
+}

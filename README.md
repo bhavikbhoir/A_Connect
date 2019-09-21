@@ -11,3 +11,6 @@ Functions added:
 Functions under development:
 1. Calender section to be added.
 2. Ability to get a hamburger navigation bar when the screen size is minimized.
+
+About A_Connect:
+A hub for colleges, students, and organizations to get to know each other and learn from each other's experience.

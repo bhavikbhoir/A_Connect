@@ -7,4 +7,7 @@ Pages completed:
 1. Timeline
 2. Profile
 
+Technologies used:
+HTML5, CSS3, Bootstrap, JavaScript, and Sublime text editor.
+
 About A_Connect: A hub for colleges, students, and organizations to get to know each other and learn from each other's experience.

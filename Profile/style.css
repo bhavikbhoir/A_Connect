@@ -1,0 +1,543 @@
+@media (min-width: 768px) .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+/*.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+    vertical-align: top;
+}
+*/
+.navbar-light .navbar-toggler{
+color: white;
+border-color: white;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+color:white;
+} 
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+.navbar{
+	background-color: #2554C7;
+	padding: 0px;
+	align-content: center;
+}
+.container{
+	width: 1200px;
+}
+
+.container input{
+	width: auto;
+}
+.nav-item{
+	width: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.nav-item i{
+	padding-right: 5px;
+}
+#logo {
+  height: 40px;
+  vertical-align: middle;
+}
+
+.navbar-brand{
+	margin-right: 0px;
+	margin-left: 2px;
+}
+.form-inline{
+	align-content: center;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+ul {
+  font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #2554C7;
+  display: inline;
+  color: white;
+  font-size: 16px;
+  border: none;
+  font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px #2554C7;
+  z-index: 1;
+  font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+/* Links inside the dropdown */
+.dropdown-menu a {
+  color: #2554C7;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  width: 150px;
+  position: relative;
+  align-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #2554C7;}
+
+
+.jumbotron{
+padding:2rem 1rem;
+margin-bottom:2rem;
+background-color: transparent;
+border-radius:.3rem;
+}
+
+.profilesection{
+  height: auto;
+  background-image: url(Wallpaper.jpg);
+  background-size: cover;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+}
+
+.profilesection p{
+  font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;	
+  background-color: transparent;
+  color: white;
+  text-underline-position: none;
+}
+
+
+/* Styles the thumbnail */
+
+a.lightbox img {
+height: 150px;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+margin: 94px 20px 20px 20px;
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+position: fixed;
+z-index: 1; /* Sit on top */
+top: -100%;
+width: 98%;
+background: rgba(0,0,0,.7);
+opacity: 0.7;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
+
+.contentsection{
+  overflow: hidden;
+  height: auto;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+}
+
+.row{
+	margin: 0px;
+}
+
+.col-md-6{
+	/*border: 0.5px solid blue;*/
+	padding: 0px;
+	padding-bottom: 15px;
+}
+
+.col-md-6 #timelinetitle
+{
+text-align: center;
+position:relative;
+margin-left: 5px;
+margin-right: 5px;
+padding: 5px;
+font-size:18px;
+background-color:#2554C7;
+color: white;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+.col-md-6 p{
+  text-align: left;
+  justify-content: space-around;
+}
+
+#more {
+	display: none;
+}
+
+button{
+  border: 1px solid grey;
+  box-shadow: 0px 4px 4px 0px grey;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  margin-bottom: 5px;
+}
+
+
+button:hover {
+  background-color: #2554C7; 
+  color: white;
+}
+
+.timeline{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+
+.item {
+  background-color: white;
+  font-size: 12px;
+  text-align: left;
+  padding: 5px;
+  height: auto;
+  width: auto;	
+  border: 0.2px solid #2554C7;
+  box-shadow: 0px 8px 8px 0px grey;
+}
+
+#gridTitle
+{
+text-align: center;
+position:relative;
+padding: 5px;
+font-size:18px;
+background-color:#2554C7;
+color: white;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+.grid1{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+
+.grid2{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+.grid3{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+.grid4{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other 
+@media screen and (max-width: 600px) {
+  .row1 .col-md-6 {
+    width: 20%;
+  }
+  .row2 .col-md-6 {
+    width: 20%;
+  }
+}*/
+
+flex-md-row{
+-ms-flex-direction:row !important;
+flex-direction:row !important;
+} 
+
+.justify-content-between{
+-ms-flex-pack:justify !important;
+justify-content:space-between !important;
+}
+
+.flex-column{
+-ms-flex-direction:column !important;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+  background: white;
+  /*background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);*/
+  color: #2554C7;
+  margin-top:10px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.col-lg-12{
+	text-align: center;
+}
+
+
+footer .col-md-8{
+	align-content: center;
+	text-align: center;
+}
+
+
+footer .col-sm-6{
+	text-align: center;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: #2554C7;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+  text-align: center;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #55ACEE;
+}
+
+.social-network a.icoInstagram:hover {
+  background-color: #fe4164;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i, 
+.social-network a.icoTwitter:hover i,
+.social-network a.icoInstagram:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+

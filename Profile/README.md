@@ -8,4 +8,6 @@ Functions added:
 4. 5 other sections with various user data.
 5. A footer section with links to follow the app on various social media websites.
 
+Technologies used: HTML5, CSS3, Bootstrap, JavaScript, and Sublime text editor.
+
 About A_Connect: A hub for colleges, students, and organizations to get to know each other and learn from each other's experience.

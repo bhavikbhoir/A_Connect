@@ -8,7 +8,13 @@
 color: white;
 border-color: white;
 }
+
+.navbar button{
+  box-shadow: none;
+}
+
 .navbar .navbar-collapse {
+  flex-grow: 0;		
   text-align: center;
 }
 

@@ -36,3 +36,6 @@ Steps to be followed to get the default folders are as follows.
 8. To start your website/project on your localhost, type the following in the terminal,
 
     yarn start
+
+
+Note: The project is still under developement and will be updated regularly.

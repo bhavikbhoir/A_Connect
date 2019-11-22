@@ -10,4 +10,6 @@ Pages completed:
 Technologies used:
 HTML5, CSS3, Bootstrap, JavaScript, and Sublime text editor.
 
+The website is also designed using React JS. The files can be found in the React JS folder.
+
 About A_Connect: A hub for colleges, students, and organizations to get to know each other and learn from each other's experience.

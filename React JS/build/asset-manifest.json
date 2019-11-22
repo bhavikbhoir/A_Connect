@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bhavikbhoir/react-profile.git/static/css/main.34de6062.chunk.css",
+    "main.js": "/bhavikbhoir/react-profile.git/static/js/main.dba81cfb.chunk.js",
+    "main.js.map": "/bhavikbhoir/react-profile.git/static/js/main.dba81cfb.chunk.js.map",
+    "runtime-main.js": "/bhavikbhoir/react-profile.git/static/js/runtime-main.f731326d.js",
+    "runtime-main.js.map": "/bhavikbhoir/react-profile.git/static/js/runtime-main.f731326d.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/bhavikbhoir/react-profile.git/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.d190848a.chunk.js": "/bhavikbhoir/react-profile.git/static/js/2.d190848a.chunk.js",
+    "static/js/2.d190848a.chunk.js.map": "/bhavikbhoir/react-profile.git/static/js/2.d190848a.chunk.js.map",
+    "index.html": "/bhavikbhoir/react-profile.git/index.html",
+    "precache-manifest.ed3f033d648ddbae226f4d1c1737a9f4.js": "/bhavikbhoir/react-profile.git/precache-manifest.ed3f033d648ddbae226f4d1c1737a9f4.js",
+    "service-worker.js": "/bhavikbhoir/react-profile.git/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/bhavikbhoir/react-profile.git/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/bhavikbhoir/react-profile.git/static/css/main.34de6062.chunk.css.map",
+    "static/media/Wallpaper.jpg": "/bhavikbhoir/react-profile.git/static/media/Wallpaper.7a09a931.jpg",
+    "static/media/logo.jpg": "/bhavikbhoir/react-profile.git/static/media/logo.005b6235.jpg",
+    "static/media/profile.jpg": "/bhavikbhoir/react-profile.git/static/media/profile.48af9bcc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f731326d.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.d190848a.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.dba81cfb.chunk.js"
+  ]
+}
